@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1b6ce7ac5d611d74294d468b7c95d91c
+guid: e7f88808a78d3ea4291a4e46d233af69
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,64 +110,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: protagonist_prior-form
+      name: health-cartoon_full
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e96de1d84415e448bc68361a6b1cf0
+      internalID: -2142720802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: health-cartoon_half
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 100
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e01c20a6d3fa04e8039b26078acffe
+      internalID: -1291400819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: health-cartoon_empty
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 100
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7464d534294aa254bb410fc1eb490e37
+      internalID: 2079663048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: health-realistic_full
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 229
-        height: 320
+        width: 100
+        height: 100
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88dce32895b1c6e47b17507efea6949e
-      internalID: 1228163757
+      spriteID: bdef1ef77261f4b40b196e9084b5c62b
+      internalID: 995434368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist_base-form
+      name: health-realistic_half
       rect:
         serializedVersion: 2
-        x: 229
+        x: 100
         y: 0
-        width: 131
-        height: 320
+        width: 100
+        height: 100
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bf41aae3d5e12e48bcdc5076d9a508f
-      internalID: 631044773
+      spriteID: 0e38ed4edbbf2a340b3f4d22e5ca8211
+      internalID: 705485227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist_first-form
+      name: health-realistic_empty
       rect:
         serializedVersion: 2
-        x: 360
+        x: 200
         y: 0
-        width: 130
-        height: 320
+        width: 100
+        height: 100
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f87216d3b4afcc44b380c52feae78a2
-      internalID: 455832309
+      spriteID: d7e47043562a42b428b390fa35a2140f
+      internalID: -1785400603
       vertices: []
       indices: 
       edges: []
@@ -183,10 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      protagonist_base-form: 631044773
-      protagonist_first-form: 455832309
-      protagonist_prior-form: 1228163757
-      protagonist_spritesheet_2: -118996044
+      health-cartoon_empty: 2079663048
+      health-cartoon_full: -2142720802
+      health-cartoon_half: -1291400819
+      health-realistic_empty: -1785400603
+      health-realistic_full: 995434368
+      health-realistic_half: 705485227
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
