@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 
@@ -24,12 +25,61 @@ public class BattleSystem : MonoBehaviour
     public BattleHUD playerHUD;
     public BattleHUD enemyHUD;
 
+    public List<Card> deck = new List<Card> ();
+    public Transform[] cardSlots;
+    public bool[] availableCardSlots;
+
+    public TextMeshProUGUI deckSizeText;
 
     // Start is called before the first frame update
     void Start()
     {
         state = BattleState.START;
         StartCoroutine(SetupBattle());
+        Shuffle();
+    }
+
+    void Update()
+    {
+        deckSizeText.text = deck.Count.ToString();
+    }
+    
+    private void Shuffle()
+    {
+        int n = deck.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = Random.Range(0, n);
+            Card value = deck[k];
+            deck[k] = deck[n];
+            deck[n] = value;
+        }
+    }
+
+    public void Discard()
+    {
+
+    }
+
+    public void DrawCard()
+    {
+        Card randCard = deck[Random.Range(0, deck.Count)];
+        
+        if(deck.Count >= 1)
+        {
+            for(int i = 0; i < availableCardSlots.Length; i++)
+            {
+                if (availableCardSlots[i] == true)
+                {
+                    Instantiate(randCard, cardSlots[i]);
+                    availableCardSlots[i] = false;
+                    deck.Remove(randCard);
+                    return;
+                }
+                
+            }
+        }
     }
        
     IEnumerator SetupBattle()
@@ -153,3 +203,4 @@ public class BattleSystem : MonoBehaviour
     }
 
 }
+
