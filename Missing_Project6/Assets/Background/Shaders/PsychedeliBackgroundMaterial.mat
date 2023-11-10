@@ -41,12 +41,20 @@ Material:
     - _BubbleSize_3: 2.95
     - _BubbleSpeed1: 1.5
     - _BubbleSpeed_3: 5
-    - _TileSize: 1
+    - _Size_1: 2.95
+    - _Size_2: 6.84
+    - _Speed_1: 1.5
+    - _Speed_2: 5
+    - _TileSize: 1.48
     m_Colors:
     - _BackgroundColor: {r: 0.882217, g: 0, b: 0.98039216, a: 0}
+    - _Background_Color_1: {r: 0.8773585, g: 0.50075644, b: 0.50075644, a: 0}
+    - _Background_Color_2: {r: 0.98039216, g: 0, b: 0.6593737, a: 0}
     - _BubbleColor_1: {r: 0.8773585, g: 0.50075644, b: 0.50075644, a: 0}
     - _BubbleColor_2: {r: 0.8490566, g: 0.8210195, b: 0.42052326, a: 0}
     - _BubbleColor_3: {r: 0.21117547, g: 0, b: 0.9150943, a: 0}
+    - _Color_1: {r: 0.8490566, g: 0.8210195, b: 0.42052326, a: 0}
+    - _Color_2: {r: 0.21117547, g: 0, b: 0.9150943, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7195428212288747947
 MonoBehaviour:

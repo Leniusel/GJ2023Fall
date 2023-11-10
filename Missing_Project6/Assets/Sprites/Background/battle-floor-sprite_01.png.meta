@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: battle-floor-sprite_01_0
+      name: battle-floor_01
       rect:
         serializedVersion: 2
         x: 0
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      battle-floor-sprite_01_0: -422355357
+      battle-floor_01: -422355357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
