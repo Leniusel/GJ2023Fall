@@ -40,5 +40,6 @@ public class BulletSelect : MonoBehaviour
 
         // Destroy the bullet after a short delay
         Destroy(bullet, destroyDelay);
+        //Debug.Log("It Pressed!!");
     }
 }
