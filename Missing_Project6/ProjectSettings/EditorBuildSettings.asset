@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d4845899297234747bf45d1e9bdf4af7
   - enabled: 0
-    path: Assets/Scenes/MainMenu_02.unity
+    path: Assets/Scenes/testing_MainMenu.unity
     guid: 66a38705a526db8459e6993397c4c339
   - enabled: 1
     path: Assets/Scenes/battlescene.unity
     guid: 90bad92a560ab4a48a6313bec41c5663
+  - enabled: 0
+    path: Assets/Scenes/testing_battlescene.unity
+    guid: f46bcd2a64a287a42ac6e1bd1ab3a2df
   m_configObjects: {}

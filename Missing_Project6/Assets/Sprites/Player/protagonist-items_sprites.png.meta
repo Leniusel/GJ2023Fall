@@ -110,15 +110,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: protagonist-items_sprites_0
+      name: protagonist-items_halo
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 110
-        height: 370
+        y: 530
+        width: 400
+        height: 170
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,15 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist-items_sprites_1
+      name: protagonist-items_horns
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 180
-        height: 370
+        x: 400
+        y: 530
+        width: 400
+        height: 170
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,36 +152,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist-items_sprites_2
+      name: protagonist-items_helmets
       rect:
         serializedVersion: 2
-        x: 300
-        y: 0
-        width: 260
-        height: 370
+        x: 800
+        y: 530
+        width: 400
+        height: 170
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd1ff067a80991842851dc22d029117e
-      internalID: 1744632860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: protagonist-items_sprites_3
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 0
-        width: 150
-        height: 370
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,15 +173,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist-items_sprites_4
+      name: protagonist-items_angelW
       rect:
         serializedVersion: 2
-        x: 710
-        y: 0
-        width: 150
-        height: 370
+        x: 0
+        y: 300
+        width: 380
+        height: 230
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,15 +194,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist-items_sprites_5
+      name: protagonist-items_spear
       rect:
         serializedVersion: 2
-        x: 860
+        x: 0
         y: 0
-        width: 220
-        height: 370
+        width: 520
+        height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,15 +215,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist-items_sprites_7
+      name: protagonist-items_trident
       rect:
         serializedVersion: 2
-        x: 1080
+        x: 520
         y: 0
-        width: 310
-        height: 370
+        width: 520
+        height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,15 +236,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist-items_sprites_8
+      name: protagonist-items_wok
       rect:
         serializedVersion: 2
-        x: 1390
+        x: 1040
         y: 0
-        width: 300
-        height: 370
+        width: 520
+        height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,43 +257,64 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist-items_sprites_11
+      name: protagonist-items_devilW
       rect:
         serializedVersion: 2
-        x: 1690
-        y: 0
-        width: 200
-        height: 370
+        x: 380
+        y: 300
+        width: 380
+        height: 230
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 077c757b90bbe43409e8e73ca5c2fbbd
-      internalID: 960714795
+      spriteID: 6dfbf36240451ed4e94602106cfbd9cc
+      internalID: 801445594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protagonist-items_sprites_12
+      name: protagonist-items_guitar
       rect:
         serializedVersion: 2
-        x: 1890
+        x: 1560
         y: 0
-        width: 280
-        height: 370
+        width: 520
+        height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1300b051d13c61740b1d70486b2334cf
-      internalID: -1381327322
+      spriteID: abd1e16f469640b4c9261e122e124ff6
+      internalID: 359217286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist-items_scarf
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 300
+        width: 380
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b7bd6ab436024499551b807b6e9d9a
+      internalID: 324262828
       vertices: []
       indices: 
       edges: []
@@ -330,19 +330,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      protagonist-items_sprites_0: 1886214794
-      protagonist-items_sprites_1: 1578672871
-      protagonist-items_sprites_10: 409514188
-      protagonist-items_sprites_11: 960714795
-      protagonist-items_sprites_12: -1381327322
+      protagonist-items_angelW: 1448827069
+      protagonist-items_devilW: -810199963
+      protagonist-items_guitar: 359217286
+      protagonist-items_halo: 1886214794
+      protagonist-items_helmets: 665842026
+      protagonist-items_horns: 1578672871
+      protagonist-items_scarf: 324262828
+      protagonist-items_spear: 1027548703
       protagonist-items_sprites_2: 1744632860
-      protagonist-items_sprites_3: 665842026
-      protagonist-items_sprites_4: 1448827069
-      protagonist-items_sprites_5: 1027548703
-      protagonist-items_sprites_6: -810199963
-      protagonist-items_sprites_7: 660360974
-      protagonist-items_sprites_8: -1952143718
-      protagonist-items_sprites_9: 359217286
+      protagonist-items_trident: 660360974
+      protagonist-items_wok: -1952143718
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
