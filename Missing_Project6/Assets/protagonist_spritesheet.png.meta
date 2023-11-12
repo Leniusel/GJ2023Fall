@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1b6ce7ac5d611d74294d468b7c95d91c
+guid: 806947285b57eda44975be338ae6ef23
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -115,10 +115,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 230
+        width: 229
         height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: protagonist_base-form
       rect:
         serializedVersion: 2
-        x: 230
+        x: 229
         y: 0
-        width: 230
+        width: 131
         height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: protagonist_first-form
       rect:
         serializedVersion: 2
-        x: 460
+        x: 360
         y: 0
-        width: 230
+        width: 130
         height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
