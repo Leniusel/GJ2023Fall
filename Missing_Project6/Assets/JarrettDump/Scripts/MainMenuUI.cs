@@ -8,7 +8,7 @@ public class MainMenuUI : MonoBehaviour
     public GameObject settingsPanel; //allows new object to be referred to
     public void StartGame()
     {
-        SceneManager.LoadScene(2); //open new scene
+        SceneManager.LoadScene(1); //open new scene
     }
 
     public void ExitGame()

@@ -25,6 +25,8 @@ public class CardInfo : MonoBehaviour
     public Text costText;
     public Text descriptionText;
     public Text typeText;
+    public Sprite thisSprite;
+    public Image thatImage;
 
     //cardtohand
     public GameObject Hand;
@@ -40,8 +42,8 @@ public class CardInfo : MonoBehaviour
     private void Update() //initialise card ui and deck
     {
         Hand = GameObject.Find("Hand");
-        
 
+      
         id = thisCard[0].id;
         cardName = thisCard[0].cardName;
         power = thisCard[0].power;
@@ -53,6 +55,8 @@ public class CardInfo : MonoBehaviour
         costText.text = "Cost: " + cost;
         descriptionText.text = "Does " + power + " damage. I am " + cardDescription;
         typeText.text = "" + cardType;
+        thisSprite = thisCard[0].thisImage;
+        thatImage.sprite = thisSprite;
 
     }
 

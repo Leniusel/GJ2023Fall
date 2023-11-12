@@ -14,6 +14,7 @@ public class CardFetch
     public int power;
     public string cardDescription;
     public string cardType;
+    public Sprite thisImage;
 
     //public int handIndex; ????
 
@@ -22,7 +23,7 @@ public class CardFetch
 
     }
 
-    public CardFetch(int Id, string CardName, int Cost, int Power, string CardDescription, string CardType)
+    public CardFetch(int Id, string CardName, int Cost, int Power, string CardDescription, string CardType, Sprite ThisImage)
     {
         id = Id;
         cardName = CardName;
@@ -30,6 +31,7 @@ public class CardFetch
         power = Power;
         cardDescription = CardDescription;
         cardType = CardType;
+        thisImage = ThisImage;
     }
 
 }

@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -79,7 +79,8 @@ public class CardSystem : MonoBehaviour
         {
         foreach(dropzone dropzone in droplist.droparea)        
         {
-            damage.TakeDamage(2);
+            //take the child object, find cardinfo component, refer to power????
+            damage.TakeDamage(1); //or card power)
             //need to somehow add to discard pile and to scale damage based on the card itself, as well as remove the card from the dropzone
         }
         droplist.droparea.Clear();

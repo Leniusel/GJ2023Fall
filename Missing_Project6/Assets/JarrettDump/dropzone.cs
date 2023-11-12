@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class dropzone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public List<dropzone> droparea = new List<dropzone>();
+    
     //SETS CONDITION BASED ON TYPE; public draggingtime.Slot typeOfCard = draggingtime.Slot.neutral;
 
     public void OnPointerEnter(PointerEventData eventData)
